@@ -12,7 +12,7 @@ namespace MeuRPG
         public void EncontroBoss()
         {
             Console.WriteLine($"\nVocê encontra o boss da região!\n");
-            Console.WriteLine("Pressione Enter para iniciar a batalha...");
+            Console.WriteLine("\n⚜️ ⚜️ ⚜️ ⚜️ ⚜️ ⚜️ ⚜️ ⚜️ ⚜️ ⚜️ ⚜️ ⚜️ ⚜️ ⚜️ ⚜️\nPressione Enter para iniciar a batalha...\n⚜️ ⚜️ ⚜️ ⚜️ ⚜️ ⚜️ ⚜️ ⚜️ ⚜️ ⚜️ ⚜️ ⚜️ ⚜️ ⚜️ ⚜️\n");
             Console.ReadLine();
 
             Console.WriteLine($"\nO boss é imponente e poderoso, mas você está determinado a derrotá-lo!\n");

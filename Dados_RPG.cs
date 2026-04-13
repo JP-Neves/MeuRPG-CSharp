@@ -17,5 +17,11 @@ namespace MeuRPG
             return _random.Next(1, _quantidadeFaces + 1) + bonus;
         }
 
+        public int RolarMaximo(int max) 
+        {
+            // Sorteia de 0 até o número anterior ao max (ex: 0 ou 1)
+            return _random.Next(0, max); 
+        }
+
     }
 }
